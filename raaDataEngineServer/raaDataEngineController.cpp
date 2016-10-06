@@ -10,7 +10,7 @@ raaDataEngineController::raaDataEngineController()
 {
 	m_pServer = new raaNetwork(601022, 601023, this); 
 
-	connect(m_pServer, SIGNAL(read(raaTcpMsg*)), SLOT(readServer(raaTcpMsg*)));
+	connect(m_pServer, SIGNAL(read(raaTcpMsg*)), SLOT(readServer(raaTcpMsg*)));  
 
 }
 
