@@ -1405,7 +1405,7 @@ void raaGraphInterface::frame(const osgGA::GUIEventAdapter& ea, osgGA::GUIAction
 		m_pMouseOverHud->setNames(sNames);
 		m_pMouseOverHud->setCluster(sCluster);
 
-		if (sNames.size()) 
+		if (sNames.size() || sCluster.size()) 
 		{
 			m_pMouseOverHud->setPos(m_aiMousePos[0], m_aiMousePos[1]);
 			m_pMouseOverHud->setState(true);
