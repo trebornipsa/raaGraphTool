@@ -243,3 +243,15 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/build-raaAndroidNetwork-Desktop_Qt_5_7_0_MSVC2015_64bit-Debug
+/freeglut
+/glut/GL
+/glyph
+/graphviz-2.30.1
+/graphviz-build
+/raaGraphTools/
+/graphviz-2.30.1.tar.gz
+/graphviz-2.30.1.tar
+/glyph.tar
+/glyph (2).tar.gz
+/glutfonts.c
